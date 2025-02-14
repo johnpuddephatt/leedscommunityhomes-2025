@@ -1,0 +1,30 @@
+{
+  "app": {
+    "js": [
+      "js/runtime.ddac92.js",
+      "js/app.d473a4.js"
+    ],
+    "css": [
+      "css/app.7ba2f6.css"
+    ],
+    "dependencies": []
+  },
+  "editor": {
+    "js": [
+      "js/runtime.ddac92.js"
+    ],
+    "css": [
+      "css/editor.f8b473.css"
+    ],
+    "dependencies": []
+  },
+  "customizer": {
+    "js": [
+      "js/runtime.ddac92.js",
+      "js/customizer.20a509.js"
+    ],
+    "dependencies": [
+      "jquery"
+    ]
+  }
+}

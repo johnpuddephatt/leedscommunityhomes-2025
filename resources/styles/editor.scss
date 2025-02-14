@@ -1,0 +1,31 @@
+@import "common/variables";
+
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~some-node-module";
+@import "~bulma";
+@import "~modularscale-sass/stylesheets/modularscale";
+
+/** Import theme styles */
+@import "common/global";
+@import "components/buttons";
+@import "components/containers";
+@import "components/content";
+
+.wp-block-post-title {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.wp-block {
+    max-width: 720px;
+    margin: 10px auto;
+}
+

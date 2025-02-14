@@ -1,0 +1,183 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2f2d83a2837c2dd850eaa12868c05bf4",
+    "packages": [
+        {
+            "name": "bikubi/wp-bulma-navbar-walker",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bikubi/wp-bulma-navbar-walker.git",
+                "reference": "9f843e626299d7115dace95186a5943f8355640c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bikubi/wp-bulma-navbar-walker/zipball/9f843e626299d7115dace95186a5943f8355640c",
+                "reference": "9f843e626299d7115dace95186a5943f8355640c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bikubi\\WPBulmaNavbarWalker\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Jakob Wierzba",
+                    "email": "github@jakobwierzba.de",
+                    "homepage": "http://jakobwierzba.de"
+                }
+            ],
+            "description": "WordPress Nav Walker for Bulma Navbar Components",
+            "homepage": "https://github.com/bikubi/wp-bulma-navbar-walker",
+            "keywords": [
+                "bulma",
+                "navbar",
+                "navwalker",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/bikubi/wp-bulma-navbar-walker/issues",
+                "source": "https://github.com/bikubi/wp-bulma-navbar-walker/tree/1.0.0"
+            },
+            "time": "2019-02-12T12:34:48+00:00"
+        },
+        {
+            "name": "saffa803/sage-bulma-navwalker",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/saffa803/sage-bulma-navwalker.git",
+                "reference": "d3f437300fdba39e0b8730c31518796b9c964501"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/saffa803/sage-bulma-navwalker/zipball/d3f437300fdba39e0b8730c31518796b9c964501",
+                "reference": "d3f437300fdba39e0b8730c31518796b9c964501",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "bulma-navwalker.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mike Sasnovski",
+                    "email": "mike@craftedbyninjas.com"
+                }
+            ],
+            "description": "Bulma Navbar component navwalker for Sage 9 based themes",
+            "homepage": "https://github.com/saffa803/sage-bulma-navwalker",
+            "keywords": [
+                "bulma",
+                "navbar",
+                "navwalker",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/saffa803/sage-bulma-navwalker/issues",
+                "source": "https://github.com/saffa803/sage-bulma-navwalker/tree/master"
+            },
+            "time": "2018-07-18T03:46:39+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "laravel/pint",
+            "version": "v1.20.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "53072e8ea22213a7ed168a8a15b96fbb8b82d44b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/53072e8ea22213a7ed168a8a15b96fbb8b82d44b",
+                "reference": "53072e8ea22213a7ed168a8a15b96fbb8b82d44b",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "ext-tokenizer": "*",
+                "ext-xml": "*",
+                "php": "^8.1.0"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^3.66.0",
+                "illuminate/view": "^10.48.25",
+                "larastan/larastan": "^2.9.12",
+                "laravel-zero/framework": "^10.48.25",
+                "mockery/mockery": "^1.6.12",
+                "nunomaduro/termwind": "^1.17.0",
+                "pestphp/pest": "^2.36.0"
+            },
+            "bin": [
+                "builds/pint"
+            ],
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "App\\": "app/",
+                    "Database\\Seeders\\": "database/seeders/",
+                    "Database\\Factories\\": "database/factories/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nuno Maduro",
+                    "email": "enunomaduro@gmail.com"
+                }
+            ],
+            "description": "An opinionated code formatter for PHP.",
+            "homepage": "https://laravel.com",
+            "keywords": [
+                "format",
+                "formatter",
+                "lint",
+                "linter",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/pint/issues",
+                "source": "https://github.com/laravel/pint"
+            },
+            "time": "2025-01-14T16:20:53+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {},
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.1"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
